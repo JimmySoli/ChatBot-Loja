@@ -1,0 +1,15 @@
+2025/08/28-00:12:30.259 3dc0 Reusing MANIFEST C:\Users\User\Documents\chatbot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/28-00:12:30.261 3dc0 Recovering log #3495
+2025/08/28-00:12:30.330 3dc0 Reusing old log C:\Users\User\Documents\chatbot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/003495.log 
+2025/08/28-00:12:32.871 30f4 Level-0 table #3502: started
+2025/08/28-00:12:32.895 30f4 Level-0 table #3502: 308057 bytes OK
+2025/08/28-00:12:32.901 30f4 Delete type=0 #3495
+2025/08/28-00:12:32.902 30f4 Manual compaction at level-0 from '\x00\x1e\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1f\x00\x00\x00' @ 0 : 0; will stop at '\x00\x1e\x00\x00\x05' @ 15720860 : 1
+2025/08/28-00:12:32.902 30f4 Compacting 1@0 + 3@1 files
+2025/08/28-00:12:33.123 30f4 Generated table #3503@0: 81050 keys, 955729 bytes
+2025/08/28-00:12:33.152 30f4 Generated table #3504@0: 10656 keys, 251306 bytes
+2025/08/28-00:12:33.174 30f4 Generated table #3505@0: 7422 keys, 165732 bytes
+2025/08/28-00:12:33.174 30f4 Compacted 1@0 + 3@1 files => 1372767 bytes
+2025/08/28-00:12:33.179 30f4 compacted to: files[ 0 3 29 0 0 0 0 ]
+2025/08/28-00:12:33.180 30f4 Delete type=2 #3502
+2025/08/28-00:12:33.181 30f4 Manual compaction at level-0 from '\x00\x1e\x00\x00\x05' @ 15720860 : 1 .. '\x00\x1f\x00\x00\x00' @ 0 : 0; will stop at (end)
