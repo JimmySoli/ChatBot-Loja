@@ -3,7 +3,19 @@ const qrcode = require('qrcode-terminal');
 //const { use } = require('react');
 const { Client, Buttons, List, MessageMedia, LocalAuth, AuthStrategy } = require('whatsapp-web.js'); // Mudança Buttons
 const client = new Client({
-    authStrategy: new LocalAuth()
+    authStrategy: new LocalAuth(),
+    puppeteer: {
+        headless: true,
+        args: [
+            '--no-sandbox',
+            '--disable-setuid-sandbox',
+            '--disable-dev-shm-usage',
+            '--disable-accelerated-2d-canvas',
+            '--no-zygote',
+            '--single-process',
+            '--disable-gpu'
+        ],
+    }
 });
 // serviço de leitura do qr code
 client.on('qr', qr => {
