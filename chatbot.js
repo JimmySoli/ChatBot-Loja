@@ -60,7 +60,7 @@ Como posso ajudá-lo enquanto um humaninho não vem te atender? Por favor, digit
 5 - Outros assuntos`;
         //if (msg.body === "1")
 
-        await client.sendMessage(from, mensagemMenu);
+        //await client.sendMessage(from, mensagemMenu);
     
         
     }
